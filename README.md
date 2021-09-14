@@ -17,7 +17,7 @@
 server端收到：  
 ![image](https://user-images.githubusercontent.com/50273609/133200019-68ab0270-73a7-4c56-a5af-0a014d856265.png)  
 5、服务器端输入：hello：  
-![image](https://user-images.githubusercontent.com/50273609/133200085-be2d2632-774c-4c88-bbf3-6aab0b9bf6c9.png)
+![image](https://user-images.githubusercontent.com/50273609/133200085-be2d2632-774c-4c88-bbf3-6aab0b9bf6c9.png)  
 client端收到：  
 ![image](https://user-images.githubusercontent.com/50273609/133200120-19f836c6-e813-4267-b2bc-4106a2d1a213.png)  
 6、client端输入：get test.txt  
