@@ -119,7 +119,7 @@ class ClientRead extends Thread {
                     FileOutputStream fos = null;
 
                     fos = new FileOutputStream(this.currentPath+"\\"+filename);
-                    System.out.println(this.currentPath+filename);
+                    System.out.println(this.currentPath+"\\"+filename);
 
                     fos.write( recievedMessage.getBytes());
 
