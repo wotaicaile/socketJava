@@ -4,7 +4,7 @@
 2、运行client.java  
 双向随时发消息，通过线程接受   
 在client端输入get xxx.后缀名，即可开启文件传输线程，默认下载到client同级目录，文件名相同。  
-实验过程：  
+实验结果：  
 1、启动server：  
 ![image](https://user-images.githubusercontent.com/50273609/133199772-d59cf0ae-f8b1-45fc-a5e2-c83ab9a7eaa5.png)  
 2、启动client：  
