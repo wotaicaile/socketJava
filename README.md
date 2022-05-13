@@ -1,10 +1,14 @@
-# socketJava
+# socketJava  
+这是我本科期间Java网络编程的作业  
+作业要求是：  
 双向rsa加密解密，服务器客户端随时双向通信，服务器提供文件下载  
+使用说明：  
 1、运行server.java  
 2、运行client.java  
-双向随时发消息，通过线程接受   
-在client端输入get xxx.后缀名，即可开启文件传输线程，默认下载到client同级目录，文件名相同。  
-实验结果：  
+运行之后两个窗口双向随时可以发消息（原理是通过两个不同的线程，可以看看代码）  
+# 文件传输是单向的，在client端发送命令，server端响应文件。  
+ps：在client端输入get xxx.后缀名，即可开启文件传输线程，默认下载到client同级目录，文件名相同。  
+实验步骤：  
 1、启动server：  
 ![image](https://user-images.githubusercontent.com/50273609/133199772-d59cf0ae-f8b1-45fc-a5e2-c83ab9a7eaa5.png)  
 2、启动client：  
